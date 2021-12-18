@@ -1,0 +1,9 @@
+{
+    "name":"tourism",
+    "about":"Project of our Reacttutorial",
+    "sources": {
+        "design": "https://getbootstrap.com/",
+        "source":"https://en.wikipedia.org/wiki/Main_Page",
+        "Traveller": "https://www.makemytrip.com"
+    }
+}

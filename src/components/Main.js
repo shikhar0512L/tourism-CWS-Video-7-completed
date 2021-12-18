@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+import Card from './Card';
+
+export default class Main extends Component {
+  btn = "Book tickets";
+  link = "https://www.makemytrip.com/";
+  render() {
+    return (
+      <>
+        <div className="row">
+          <Card title="City Palace" content="City Palace, Udaipur is a palace complex situated in the city of Udaipur in the Indian state of Rajasthan. It was built over a period of nearly 400 years, with contributions from several rulers of the Mewar dynasty." btn={this.btn} img="https://www.holidify.com/images/cmsuploads/compressed/3137_20190428132918.jpg" target="_blank" link={this.link} />
+          <Card title="Fateh Sagar Lake" content="Fateh Sagar Lake is situated in the city of Udaipur in the Indian state of Rajasthan. It is an artificial lake named after Maharana Fateh Singh of Udaipur and Mewar, constructed north-west of Udaipur, to the north of Lake Pichola in the 1680s." btn={this.btn} img="https://www.holidify.com/images/cmsuploads/compressed/22809330353_510177c130_b_20170521144350.jpg" target="_blank" link={this.link} />
+          <Card title="Lake Pichola" content="Lake Pichola, situated in Udaipur city in the Indian state of Rajasthan, is an artificial fresh water lake, created in the year 1362 AD, named after the nearby Picholi village. It is one of the several contiguous lakes, and developed over the last few centuries in and around the famous Udaipur city. " btn={this.btn} img="https://upload.wikimedia.org/wikipedia/commons/d/d2/Udaipur_Lake_India.JPG" target="_blank" link={this.link} />
+          <Card title="Amer Fort" content="Amber Fort or Amer Fort is a fort located in Amber, Rajasthan, India. Amber is a town with an area of 4 square kilometres located 11 kilometres from Jaipur, the capital of Rajasthan.The town of Amber and the Amber Fort was built by Raja Alan Singh Chanda belonging to a sub clan of Meenas in 967 AD." btn={this.btn} img="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Amber_Fort_%28%E0%A4%86%E0%A4%AE%E0%A5%87%E0%A4%B0_%E0%A4%95%E0%A4%BE_%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A4%BE_%29.jpg/1200px-Amber_Fort_%28%E0%A4%86%E0%A4%AE%E0%A5%87%E0%A4%B0_%E0%A4%95%E0%A4%BE_%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A4%BE_%29.jpg" target="_blank" link={this.link} />
+          <Card title="City Palace,Jaipur" content="The City Palace, Jaipur was established at the same time as the city of Jaipur, by Maharaja Sawai Jai Singh II, who moved his court to Jaipur from Amber, in 1727." btn={this.btn} img="https://jaipurtourism.co.in/images/places-to-visit/header/city-palace-jaipur-entry-fee-timings-holidays-reviews-header.jpg" target="_blank" link={this.link} />
+          <Card title="Radhanagar Beach" content="Radhanagar Beach on the western coast, also known as Number 7 Beach, is one of the most popular beaches on Havelock and was named Best Beach in Asia by Time in 2004." btn={this.btn} img="http://photos.wikimapia.org/p/00/01/87/25/06_big.jpg" target="_blank" link={this.link} />
+          <Card title="Cellular Jail" content="The Cellular Jail, also known as Kālā Pānī, was a colonial prison in the Andaman and Nicobar Islands, India. The prison was used by the British government for the purpose of exiling political prisoners to the remote archipelago." btn={this.btn} img="https://gumlet.assettype.com/nationalherald%2F2020-08%2Fdbcc7f7f-e8cf-49f6-a932-a648c12376fd%2Fcellular_jail.jpg?rect=0%2C0%2C1200%2C675&auto=format%2Ccompress&fmt=webp&w=1200" target="_blank" link={this.link} />
+          <Card title="Netaji Subhash Chandra Bose Island" content="Netaji Subhas Chandra Bose Island, formerly known as Ross Island, is an island of the Andaman Islands. It belongs to the South Andaman administrative district, Andaman and Nicobar Islands. The island is situated 3 km east from central Port Blair. The historic ruins are a tourist attraction." btn={this.btn} img="https://pickyourtrail.com/blog/wp-content/uploads/2020/05/harneet-kochar-hajLYl5YKao-unsplash-scaled.jpg" target="_blank" link={this.link} />
+          <Card title="Shri Kashi Vishwanath Temple" content="The Kashi Vishwanath Temple is one of the most famous Hindu temples dedicated to Lord Shiva. It is located in Vishwanath Gali of Varanasi, Uttar Pradesh in India. The Temple stands on the western bank of the holy river Ganga, and is one of the twelve Jyotirlingas, or Jyotirlingams, the holiest of Shiva Temples." btn={this.btn} img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdglEZNuE6mIlOTeuh5HeH56VCTt5lv_0_cw&usqp=CAU" target="_blank" link={this.link} />
+          <Card title="Ganga Aarti, Varanasi" content="Ritual prayer ceremonies honoring the Ganges River are held at a Hindu temple on the river." btn={this.btn} img="https://static.toiimg.com/photo/65532606/a6.jpg?width=748&resize=4" target="_blank" link={this.link} />
+          <Card title="Dashashwamedh Ghat" content="Dashashwamedh Ghat is the main ghat in Varanasi on the Ganga River in Uttar Pradesh. It is located close to Vishwanath Temple and is probably the most spectacular ghat." btn={this.btn} img="https://www.visittnt.com/images/varanasi/dashashwamedh-ghat-750x337.jpg" target="_blank" link={this.link} />
+        </div>
+      </>
+    )
+  }
+}

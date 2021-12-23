@@ -9,7 +9,7 @@ export default function Card(props) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{content}</p>
-          <a href={link} className="btn btn-primary">{btn}</a>
+          <a href={link} className="btn btn-primary" target="_blank">{btn}</a>
         </div>
       </div>
     </>
